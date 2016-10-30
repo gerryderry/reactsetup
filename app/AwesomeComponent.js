@@ -12,6 +12,10 @@ class AwesomeComponent extends React.Component {
     this.setState({likesCount: newLikesCount});
   }
 
+  myName() {
+    return 'George McLaughlin'
+  }
+
   render() {
     return(
       <div>

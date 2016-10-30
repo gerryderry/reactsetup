@@ -12,12 +12,12 @@ var config = {
     publicPth: '/'
   },
   //for dev env only
-  // devtool: 'source-map',
-  // devServer: {
-  //   inline: true,
-  //   contentBase: BUILD_DIR,
-  //   port: 3333
-  // },
+  devtool: 'source-map',
+  devServer: {
+    inline: true,
+    contentBase: BUILD_DIR,
+    port: 3333
+  },
   module: {
     loaders: [
       {
